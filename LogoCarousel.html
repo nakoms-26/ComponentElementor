@@ -1,0 +1,787 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet"
+/>
+
+<section id="logo-modern">
+  <!-- Background Glow -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <div class="logo-shell">
+    <!-- Heading -->
+    <div class="section-heading">
+      <span class="mini-badge">IDENTITAS LOGO</span>
+      <h2>Makna Filosofi Logo</h2>
+      <p>
+        Setiap elemen dalam logo memiliki filosofi yang saling terhubung dan
+        membentuk satu harmoni pergerakan.
+      </p>
+    </div>
+
+    <!-- Slider -->
+    <div class="slider-wrapper">
+      <div class="swiper logo-swiper-modern">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="glass-card">
+              <div class="image-wrap">
+                <img
+                  src="https://raw.githubusercontent.com/nakoms-26/AssetLogoWeb/refs/heads/main/1.png"
+                  alt="Topi Sihir"
+                />
+              </div>
+
+              <div class="logo-slide-content">
+                <h3>Topi Sihir</h3>
+                <p>
+                  Topi sebagai “payung” yang menaungi seluruh elemen mahasiswa
+                  dalam orkestra pergerakan yang harmonis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="glass-card">
+              <div class="image-wrap">
+                <img
+                  src="https://raw.githubusercontent.com/nakoms-26/AssetLogoWeb/refs/heads/main/2.png"
+                  alt="K & C"
+                />
+              </div>
+
+              <div class="logo-slide-content">
+                <h3>K & C</h3>
+                <p>
+                  Huruf “K” dan “C” merepresentasikan Kausa Cipta sebagai inti
+                  dari identitas logo.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="glass-card">
+              <div class="image-wrap">
+                <img
+                  src="https://raw.githubusercontent.com/nakoms-26/AssetLogoWeb/refs/heads/main/3.png"
+                  alt="Enam Lilitan"
+                />
+              </div>
+
+              <div class="logo-slide-content">
+                <h3>Enam Lilitan</h3>
+                <p>
+                  Melambangkan enam simfoni misi yang saling terhubung dan
+                  berjalan dalam satu irama.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="swiper-slide">
+            <div class="glass-card">
+              <div class="image-wrap">
+                <img
+                  src="https://raw.githubusercontent.com/nakoms-26/AssetLogoWeb/refs/heads/main/4.png"
+                  alt="Tiga Akar"
+                />
+              </div>
+
+              <div class="logo-slide-content">
+                <h3>Tiga Akar</h3>
+                <p>
+                  Merepresentasikan Tridharma Perguruan Tinggi sebagai pondasi
+                  utama pergerakan.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="swiper-slide">
+            <div class="glass-card">
+              <div class="image-wrap">
+                <img
+                  src="https://raw.githubusercontent.com/nakoms-26/AssetLogoWeb/refs/heads/main/5.png"
+                  alt="Tongkat Sihir"
+                />
+              </div>
+
+              <div class="logo-slide-content">
+                <h3>Tongkat Sihir</h3>
+                <p>
+                  Simbol kreativitas dan semangat “Merajut Kolaborasi” dalam
+                  menyatukan arah gerak mahasiswa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="swiper-button-next custom-nav" aria-label="Next slide">
+          <svg
+            class="nav-icon nav-icon-next"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M9 6l6 6-6 6" />
+          </svg>
+        </div>
+        <div class="swiper-button-prev custom-nav" aria-label="Previous slide">
+          <svg
+            class="nav-icon nav-icon-prev"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M9 6l6 6-6 6" />
+          </svg>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --primary: #4f4d9a;
+    --secondary: #8ea8ea;
+    --soft: #f5f3ff;
+    --dark: #2f2f67;
+    --accent: #6b2f5a;
+    --white: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #logo-modern {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 20px;
+    background: #ffffff;
+  }
+
+  /* Background Orbs */
+  .bg-orb {
+    display: none;
+  }
+
+  .orb-1 {
+    width: 280px;
+    height: 280px;
+    background: #b6c6ff;
+    top: -60px;
+    left: -80px;
+  }
+
+  .orb-2 {
+    width: 260px;
+    height: 260px;
+    background: #d5b7ff;
+    bottom: -80px;
+    right: -60px;
+  }
+
+  .logo-shell {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Heading */
+  .section-heading {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+
+  .mini-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    border-radius: 999px;
+    background: rgba(79, 77, 154, 0.08);
+    border: 1px solid rgba(79, 77, 154, 0.12);
+    color: var(--primary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    font-size: 52px;
+    line-height: 1.1;
+    color: var(--dark);
+    font-weight: 800;
+  }
+
+  .section-heading p {
+    max-width: 700px;
+    margin: 24px auto 0;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #5d5d74;
+  }
+
+  /* Slider */
+  .slider-wrapper {
+    position: relative;
+  }
+
+  .logo-swiper-modern {
+    overflow: visible;
+    padding-bottom: 92px;
+  }
+
+  .logo-swiper-modern .swiper-slide {
+    width: 360px;
+    transition: all 0.5s ease;
+  }
+
+  /* Ensure consistent card height so images don't overflow */
+  .logo-swiper-modern .swiper-slide .glass-card {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  /* Card */
+  .glass-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 34px;
+    padding: 36px 28px;
+    background:
+      linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.76),
+        rgba(255, 255, 255, 0.38)
+      ),
+      radial-gradient(
+        circle at top left,
+        rgba(142, 168, 234, 0.35),
+        transparent 34%
+      ),
+      radial-gradient(
+        circle at bottom right,
+        rgba(107, 47, 90, 0.18),
+        transparent 30%
+      );
+    border: 1px solid rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(24px) saturate(160%);
+    box-shadow:
+      0 22px 54px rgba(79, 77, 154, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9),
+      inset 0 -20px 40px rgba(79, 77, 154, 0.04);
+    transition:
+      transform 0.45s ease,
+      box-shadow 0.45s ease,
+      border 0.45s ease;
+  }
+
+  .glass-card::before {
+    content: "";
+    position: absolute;
+    inset: -25% -15% auto auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.65),
+      rgba(255, 255, 255, 0) 70%
+    );
+    transform: rotate(-12deg);
+    pointer-events: none;
+  }
+
+  .glass-card::after {
+    content: "";
+    position: absolute;
+    inset: auto -20% -35% -20%;
+    height: 180px;
+    background: linear-gradient(
+      180deg,
+      rgba(142, 168, 234, 0),
+      rgba(142, 168, 234, 0.2)
+    );
+    filter: blur(18px);
+    pointer-events: none;
+  }
+
+  .glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow:
+      0 32px 72px rgba(79, 77, 154, 0.18),
+      inset 0 1px 0 rgba(255, 255, 255, 0.95),
+      inset 0 -24px 48px rgba(79, 77, 154, 0.05);
+  }
+
+  /* Active Slide */
+  .swiper-slide-active .glass-card {
+    transform: scale(1.03);
+    border: 1px solid rgba(142, 168, 234, 0.52);
+    box-shadow:
+      0 36px 90px rgba(79, 77, 154, 0.2),
+      0 0 0 1px rgba(255, 255, 255, 0.62) inset,
+      0 0 0 8px rgba(142, 168, 234, 0.08);
+  }
+
+  /* Image */
+  .image-wrap {
+    position: relative;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+
+  .image-wrap::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(
+      circle,
+      rgba(142, 168, 234, 0.28),
+      rgba(79, 77, 154, 0.08),
+      transparent 72%
+    );
+    z-index: 0;
+    filter: blur(2px);
+  }
+
+  .image-wrap img {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+    filter: drop-shadow(0 18px 28px rgba(47, 47, 103, 0.15));
+  }
+
+  .swiper-slide-active img {
+    transform: scale(1.12) rotate(-2deg);
+  }
+
+  /* Text */
+  #logo-modern .logo-slide-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
+  #logo-modern .logo-slide-content h3 {
+    margin: 0 0 14px;
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  #logo-modern .logo-slide-content p {
+    margin: 0;
+    color: #4f4f68;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  /* Navigation */
+  #logo-modern .custom-nav {
+    width: 54px !important;
+    height: 54px !important;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(
+      135deg,
+      rgba(142, 168, 234, 0.95),
+      rgba(79, 77, 154, 0.95)
+    );
+    color: #fff !important;
+    --swiper-navigation-color: #ffffff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 16px 32px rgba(79, 77, 154, 0.18);
+    transition: all 0.35s ease;
+  }
+
+  #logo-modern .swiper-button-next::after,
+  #logo-modern .swiper-button-prev::after {
+    content: none !important;
+  }
+
+  #logo-modern .nav-icon {
+    width: 18px;
+    height: 18px;
+    display: block;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+  }
+
+  #logo-modern .nav-icon-prev {
+    transform: rotate(180deg);
+  }
+
+  #logo-modern .swiper-button-next.custom-nav {
+    right: 18px;
+  }
+
+  #logo-modern .swiper-button-prev.custom-nav {
+    left: 18px;
+  }
+
+  #logo-modern .custom-nav:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 22px 42px rgba(79, 77, 154, 0.26);
+  }
+
+  /* Pagination */
+  #logo-modern .swiper-pagination {
+    bottom: -18px !important;
+    margin-top: 20px !important;
+  }
+
+  #logo-modern .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: rgba(79, 77, 154, 0.18) !important;
+    opacity: 1;
+    transition: all 0.35s ease;
+  }
+
+  #logo-modern .swiper-pagination-bullet-active {
+    width: 34px;
+    border-radius: 999px;
+    background: linear-gradient(
+      90deg,
+      var(--secondary),
+      var(--primary)
+    ) !important;
+  }
+
+  /* Responsive */
+  @media (max-width: 1200px) {
+    .logo-swiper-modern .swiper-slide {
+      width: 320px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    #logo-modern {
+      padding: 88px 18px;
+    }
+
+    .section-heading h2 {
+      font-size: 42px;
+    }
+
+    .section-heading p {
+      font-size: 17px;
+    }
+
+    .logo-swiper-modern {
+      padding-bottom: 78px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #logo-modern {
+      padding: 72px 14px;
+    }
+
+    .section-heading {
+      margin-bottom: 42px;
+    }
+
+    .section-heading h2 {
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    .section-heading p {
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    /* Keep a smaller fixed slide width so coverflow shows neighboring slides */
+    .logo-swiper-modern .swiper-slide {
+      width: 320px;
+    }
+
+    .logo-swiper-modern {
+      overflow: visible;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    /* Let the container grow with content on mobile */
+    .logo-shell {
+      height: auto;
+    }
+
+    .slider-wrapper {
+      overflow: visible;
+    }
+
+    /* Allow coverflow neighbors to be visible on mobile */
+    #logo-modern {
+      overflow: visible;
+    }
+
+    /* Remove glow/shine effects on mobile for cleaner appearance */
+    .glass-card::before,
+    .glass-card::after,
+    .image-wrap::before {
+      display: none;
+    }
+
+    .glass-card {
+      box-shadow: none;
+      border: 1px solid rgba(79, 77, 154, 0.04);
+      background: linear-gradient(
+        145deg,
+        rgba(255, 255, 255, 0.96),
+        rgba(255, 255, 255, 0.9)
+      );
+    }
+
+    /* Disable hover interactions and active scaling on touch devices */
+    .glass-card:hover {
+      transform: none;
+      box-shadow: none;
+    }
+
+    /* Prevent active slide scaling on mobile */
+    .swiper-slide-active .glass-card {
+      transform: none;
+      box-shadow: none;
+    }
+
+    .glass-card {
+      padding: 24px 18px;
+      border-radius: 26px;
+      min-height: 0;
+    }
+
+    .image-wrap {
+      height: 200px;
+      margin-bottom: 20px;
+    }
+
+    .image-wrap img {
+      max-height: 160px;
+    }
+
+    #logo-modern .logo-slide-content h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    #logo-modern .logo-slide-content p {
+      font-size: 13px;
+      line-height: 1.75;
+    }
+
+    #logo-modern .custom-nav {
+      width: 42px !important;
+      height: 42px !important;
+      top: 42%;
+    }
+
+    #logo-modern .swiper-button-next.custom-nav {
+      right: 8px;
+    }
+
+    #logo-modern .swiper-button-prev.custom-nav {
+      left: 8px;
+    }
+
+    #logo-modern .nav-icon {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #logo-modern {
+      padding: 64px 10px;
+    }
+
+    .section-heading {
+      margin-bottom: 34px;
+    }
+
+    .mini-badge {
+      padding: 8px 14px;
+      font-size: 11px;
+      letter-spacing: 1.2px;
+    }
+
+    .section-heading h2 {
+      font-size: 26px;
+    }
+
+    .section-heading p {
+      font-size: 14px;
+    }
+
+    .logo-swiper-modern {
+      padding-bottom: 64px;
+      overflow: visible;
+    }
+
+    /* Preserve 3D look on small phones — section follows content height */
+    #logo-modern {
+      overflow: visible;
+    }
+
+    /* Slightly narrower slides on small phones to preserve 3D look */
+    .logo-swiper-modern .swiper-slide {
+      width: 300px;
+    }
+
+    .logo-swiper-modern {
+      overflow: hidden;
+    }
+
+    .glass-card {
+      padding: 20px 14px;
+      border-radius: 24px;
+      min-height: 0;
+    }
+
+    .image-wrap {
+      height: 180px;
+      margin-bottom: 18px;
+    }
+
+    .slider-wrapper {
+      margin-inline: 0;
+    }
+
+    .image-wrap::before {
+      width: 160px;
+      height: 160px;
+    }
+
+    .image-wrap img {
+      max-height: 145px;
+    }
+
+    #logo-modern .logo-slide-content h3 {
+      font-size: 19px;
+    }
+
+    #logo-modern .logo-slide-content p {
+      font-size: 12.5px;
+    }
+
+    #logo-modern .custom-nav {
+      width: 38px !important;
+      height: 38px !important;
+    }
+
+    #logo-modern .swiper-button-next.custom-nav {
+      right: 6px;
+    }
+
+    #logo-modern .swiper-button-prev.custom-nav {
+      left: 6px;
+    }
+
+    #logo-modern .nav-icon {
+      width: 13px;
+      height: 13px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    function initSwiper() {
+      const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
+      new Swiper("#logo-modern .logo-swiper-modern", {
+        effect: "coverflow",
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: false,
+        speed: 900,
+        grabCursor: true,
+        spaceBetween: isMobile ? 6 : 10,
+
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: isMobile ? 120 : 180,
+          modifier: isMobile ? 1.6 : 2.2,
+          scale: isMobile ? 0.92 : 0.88,
+          slideShadows: false,
+        },
+
+        pagination: {
+          el: "#logo-modern .swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: "#logo-modern .swiper-button-next",
+          prevEl: "#logo-modern .swiper-button-prev",
+        },
+      });
+    }
+
+    if (typeof Swiper === "undefined") {
+      const swiperCSS = document.createElement("link");
+      swiperCSS.rel = "stylesheet";
+      swiperCSS.href = "https://unpkg.com/swiper/swiper-bundle.min.css";
+      document.head.appendChild(swiperCSS);
+
+      const swiperJS = document.createElement("script");
+      swiperJS.src = "https://unpkg.com/swiper/swiper-bundle.min.js";
+
+      swiperJS.onload = initSwiper;
+
+      document.body.appendChild(swiperJS);
+    } else {
+      initSwiper();
+    }
+  });
+</script>
